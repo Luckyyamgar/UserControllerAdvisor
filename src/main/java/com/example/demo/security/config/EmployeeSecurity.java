@@ -1,4 +1,4 @@
-package com.example.demo.security.config;
+/*package com.example.demo.security.config;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -36,4 +36,4 @@ public class EmployeeSecurity {
 		return new BCryptPasswordEncoder();
 	}
 	
-}
+}*/

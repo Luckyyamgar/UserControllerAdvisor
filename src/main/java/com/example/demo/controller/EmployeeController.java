@@ -61,7 +61,7 @@ public class EmployeeController {
 	}
 
 //Get all data 
-	
+	@PreAuthorize("hasRole('ADMIN')")
 	@GetMapping("/api/getall")
 	public ApiResponce getAllEmployee() {
 		System.out.println("Get Employee Data Successful successfully");
